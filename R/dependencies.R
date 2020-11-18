@@ -1,6 +1,6 @@
 spark_dependencies <- function(spark_version, scala_version, ...) {
   graphframes_version <- if (spark_version >= "2.4.0") {
-    "0.7.0"
+    "0.8.1"
   } else if (spark_version >= "2.2.0") {
     "0.6.0"
   } else {
